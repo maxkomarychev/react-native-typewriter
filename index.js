@@ -142,7 +142,10 @@ class TypeWriter extends Component {
     if (fixed) {
       const invisibleString = children.slice(visibleChars)
       // patch props
-      props.style.opacity = 1
+      props.style = {
+        ...props.style,
+        opacity: 1
+      }
       components.push(
         <Text
           { ...props }
