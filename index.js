@@ -146,7 +146,7 @@ class TypeWriter extends Component {
       components.push(
         <Text
           { ...props }
-          key="invisible-string"
+          key="invisible-string">
           {invisibleString}
         </Text>
       );
