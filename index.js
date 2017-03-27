@@ -144,7 +144,7 @@ class TypeWriter extends Component {
       // patch props
       props.style = {
         ...props.style,
-        opacity: 1
+        opacity: 0,
       }
       components.push(
         <Text
