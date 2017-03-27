@@ -146,7 +146,7 @@ class TypeWriter extends Component {
           { ...props }
           key="invisible-string"
           style={{
-            opacity: 0,
+            opacity: 1,
           }}>
           {invisibleString}
         </Text>
